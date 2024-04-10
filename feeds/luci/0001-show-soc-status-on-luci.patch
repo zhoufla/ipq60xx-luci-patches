@@ -199,7 +199,7 @@ index 45f7b4acae..032f74bdd4 100644
 -			) : null
 +			) : null,
 +			_('核心频率'),          coreinfo.cpufreq / 1000 + ' MHz ' + '(' + coreinfo.governor + ')',
-+			_('核心温度'),          'CPU ' + coretemp.cpu + ' °C' + ' / ' + 'WiFi ' + coretemp.wifi + ' °C',
++			_('核心温度'),          'CPU ' + coretemp.cpu + ' °C' ,
 +			_('使用率'),            'CPU ' + coreusage.cpu + '%' + ' / ' + 'NSS ' + coreusage.nss + '%'
  		];
  
